@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<style>
+			.smaller {
+				width: 320px;
+				height: 180px;
+				background-color: pink;
+
+				background-image: url('image.jpg');
+			}
+
+			.larger {
+				width: 640px;
+				height: 360px;
+				background-color: pink;
+
+				background-image: url('image.jpg');
+			}
+
+			.smaller ~ .larger {
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="smaller"></div>
+		<div class="larger"></div>
+	</body>
+</html>
